@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "nodemon",
     "build": "tsc --project ./ --outDir ./dist",
+    "start": "node ./dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
